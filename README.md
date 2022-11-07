@@ -7,3 +7,4 @@ int main()
    int c;
    c=a*b;
    printf("%d" , c);
+ }  
