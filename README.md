@@ -1,10 +1,13 @@
-# Practice-1
-#include<stdio.h>
-int main()
+#include<stdio.h.>
+#include<strings.h> 
+void main()
 {
-   int a=5;
-   int b=4;
-   int c;
-   c=a*b;
-   printf("%d" , c);
- }  
+  char arr[] = "Bamboozled";
+  int len1,len2;
+  
+  len = strlen (arr);
+  len2 = strlen("Humpty Dumpty");
+  
+  printf("\nstring = %s lenght = "%d",arr,len1);
+  printf("\nstring = %s lenght="%d","Humty Dumpty",len2);
+ } 
